@@ -12,3 +12,6 @@ class Animal(ABC):
     @abstractmethod
     def move(self):
         pass
+git add Animal.py
+git commit -m "Added abstract Animal class"
+git push origin main
