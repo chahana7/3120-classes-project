@@ -7,3 +7,5 @@ my_dog = Dog("Buddy", 3, "Golden Retriever")
 print(my_dog.make_sound())  # Output: Woof!
 print(my_dog.move())        # Output: The dog runs around happily.
 print(my_dog.fetch())       # Output: Buddy fetches the ball eagerly.
+
+python test_Dog.py
