@@ -1,17 +1,12 @@
-from abc import ABC, abstractmethod
+class Animal:
+	def __init__(self, name, age):
+		self.name = name
+		self.age = age
 
-class Animal(ABC):
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
+	def make_sound(self):
+		pass
 
-    @abstractmethod
-    def make_sound(self):
-        pass
+	def move(self):
+		pass
 
-    @abstractmethod
-    def move(self):
-        pass
-git add Animal.py
-git commit -m "Added abstract Animal class"
-git push origin main
+	
